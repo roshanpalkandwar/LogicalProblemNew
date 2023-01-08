@@ -9,7 +9,7 @@ namespace Day6Assignment
         static void Main(string[] args)
         {
             Console.WriteLine("welecome to fobonaci series ");
-            Console.WriteLine("chooes program\n1. fibonaci series\n2.find perfect number\n3.find prime number or not");
+            Console.WriteLine("chooes program\n1. fibonaci series\n2.find perfect number\n3.find prime number or not\n4.reverse a number");
             int opt = Convert.ToInt32(Console.ReadLine());
 
             switch (opt)
@@ -22,6 +22,9 @@ namespace Day6Assignment
                     break;
                 case 3:
                     PrimeNumber.primeNumber();
+                    break;
+                case 4:
+                    ReverseNumber.reverseNumber();
                     break;
 
             }
